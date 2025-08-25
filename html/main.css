@@ -167,8 +167,10 @@ body {
 
 .content-section {
     min-height: 100vh;
-    padding: 4rem 1.5rem;
-    background: black;
+    padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
 }
 
 .content-wrapper {
