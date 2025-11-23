@@ -136,12 +136,26 @@ export const Home = () => {
 						<div className="video-container">
 								<div className="video-frame">
 										<div className="video-wrapper">
-												<iframe src="https://www.youtube.com/embed/7U40M-O9RUw" frameborder="0" allowfullscreen></iframe>
+												<iframe
+													src="https://www.youtube.com/embed/7U40M-O9RUw"
+													allowFullScreen
+													style={{ border: 'none' }}
+													width="100%"
+													height="400px"
+													title="My video"
+												/>
 										</div>
 								</div>
 								<div className="video-frame">
 										<div className="video-wrapper">
-												<iframe src="https://www.youtube.com/embed/VIVMM5_FOZ4" frameborder="0" allowfullscreen></iframe>
+												<iframe
+													src="https://www.youtube.com/embed/VIVMM5_FOZ4"
+													allowFullScreen
+													style={{ border: 'none' }}
+													width="100%"
+													height="400px"
+													title="My video"
+												/>
 										</div>
 								</div>
 						</div>
