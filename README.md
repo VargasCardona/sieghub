@@ -17,4 +17,4 @@ Minimal personal website that serves as a simple online presence to share basic 
 This is a personal project. Suggestions are welcome via issues or pull requests.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License. See the [LICENSE](LICENSE) file for details.
