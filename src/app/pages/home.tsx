@@ -42,7 +42,7 @@ export const Home = () => {
 
 				<div className="marquee-container">
 						<div className="marquee-content">
-								SIEG.FRIED  ///  GUITAR COVERS  ///  J-ROCK COVERS  ///  MUSIC  ///  BASS COVERS  ///  SIEG.FRIED  ///  GUITAR COVERS  ///  J-ROCK COVERS  ///  MUSIC  ///  BASS COVERS  ///
+								SIEG.FRIED  ///  GUITAR COVERS  ///  J-ROCK COVERS  ///  MUSIC  ///  BASS COVERS  ///  SIEG.FRIED  ///  GUITAR COVERS  ///  J-ROCK COVERS  ///  MUSIC  ///  BASS COVERS  ///  SIEG.FRIED  ///  GUITAR COVERS  ///  J-ROCK COVERS  ///  MUSIC  ///  BASS COVERS  ///  SIEG.FRIED  ///  GUITAR COVERS  ///  J-ROCK COVERS  ///  MUSIC  ///  BASS COVERS  ///
 						</div>
 				</div>
 
@@ -72,11 +72,11 @@ export const Home = () => {
 						<div className="gear-grid">
 								<div className="gear-item">
 										<div className="gear-cat">Main Guitar</div>
-										<div className="gear-name">Ibanez AZ Premium</div>
+										<div className="gear-name">Brandless Strat</div>
 								</div>
 								<div className="gear-item">
 										<div className="gear-cat">Bass Guitar</div>
-										<div className="gear-name">Dingwall NG3</div>
+										<div className="gear-name">Persian EBS200-24 BK</div>
 								</div>
 								<div className="gear-item">
 										<div className="gear-cat">Interface</div>
@@ -186,7 +186,7 @@ export const Home = () => {
 				</section>
 
 				<footer>
-						<p>DESIGNED FOR SIEGFRIED &copy; 2026</p>
+						<p>BY SIEGFRIED &copy; 2026</p>
 						<p style={{ color: '#222', marginTop: '10px' }}>SYSTEM.OFFLINE</p>
 				</footer>
 			</main>
