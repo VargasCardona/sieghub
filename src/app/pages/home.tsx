@@ -56,8 +56,7 @@ export const Home = () => {
 								<span className="section-label">01. MY PROFILE</span>
 								<h2 style={{fontFamily: "Playfair Display", fontSize: "2rem", marginBottom: "1rem"}}>Subtlety is louder.</h2>
 								<p className="about-desc">
-                    I am シーグ (Siegfried), a guitarist and bassist. I create covers blending modern techniques with a dynamic sound, valuing 
-										accuracy in my renditions. Influenced by JRock, JPop, KRock, KPop, and more. I also love photography. 
+                    I'm シーグ (Siegfried), a guitarist and bassist. I like JRock, JPop, KRock, KPop, and more. I also love photography. 
 								</p>
 								<div style={{fontSize: "0.7rem", color: "#444", fontFamily: "monospace"}}>
 										{">"} ROLE: CONTENT CREATOR<br />
@@ -72,7 +71,7 @@ export const Home = () => {
 						<div className="gear-grid">
 								<div className="gear-item">
 										<div className="gear-cat">Main Guitar</div>
-										<div className="gear-name">Brandless Strat</div>
+										<div className="gear-name">Squier Debut Telecaster</div>
 								</div>
 								<div className="gear-item">
 										<div className="gear-cat">Bass Guitar</div>
@@ -92,42 +91,42 @@ export const Home = () => {
 				<section className="influences-section container">
 						<span className="section-label">03. FAVORITE ARTISTS</span>
 						<div className="artist-grid">
-								 <div className="artist-card">
-										<span className="artist-id">ID: 004</span>
+								<a href="https://youtu.be/_dkq_9nL2f0?si=aZNLoIUEJaYicICP" target="_blank" rel="noopener noreferrer" className="artist-card">
+										<span className="artist-id">ID: 001</span>
 										<span className="artist-jp">エイハブ</span>
 										<h3 className="artist-name">AHUB</h3>
 										<div className="artist-meta">
-												{">"} STYLE: MODERN ROCK<br />
+												{">"} STYLE: J-ROCK<br />
 												{">"} TRACK: YELP
 										</div>
-								</div>
-								<div className="artist-card">
-										<span className="artist-id">ID: 001</span>
+								</a>
+								<a href="https://youtu.be/jJzw1h5CR-I?si=zbl4pz8_GSNXAvES" target="_blank" rel="noopener noreferrer" className="artist-card">
+										<span className="artist-id">ID: 002</span>
 										<span className="artist-jp">イブ</span>
 										<h3 className="artist-name">Eve</h3>
 										<div className="artist-meta">
-												{">"} STYLE: MODERN ROCK<br />
+												{">"} STYLE: J-ROCK<br />
 												{">"} TRACK: DRAMATURGY
 										</div>
-								</div>
-								<div className="artist-card">
-										<span className="artist-id">ID: 002</span>
+								</a>
+								<a href="https://youtu.be/-wb2PAx6aEs?si=JKzfIKMNnMFIvg9c" target="_blank" rel="noopener noreferrer" className="artist-card">
+										<span className="artist-id">ID: 003</span>
 										<span className="artist-jp">米津玄師</span>
 										<h3 className="artist-name">Kenshi Yonezu</h3>
 										<div className="artist-meta">
 												{">"} STYLE: J-POP / ALT<br />
 												{">"} TRACK: SAYONARA, MATA ITSUKA!
 										</div>
-								</div>
-								<div className="artist-card">
-										<span className="artist-id">ID: 003</span>
+								</a>
+								<a href="https://youtu.be/ZUwaudw8ht0?si=D8YcGj20y_eYDTcv" target="_blank" rel="noopener noreferrer" className="artist-card">
+										<span className="artist-id">ID: 004</span>
 										<span className="artist-jp">ずっと真夜中でいいのに。</span>
 										<h3 className="artist-name">Zutomayo</h3>
 										<div className="artist-meta">
 												{">"} STYLE: J-POP / ALT<br />
 												{">"} TRACK: INSIDE JOKE
 										</div>
-								</div>
+								</a>
 						</div>
 				</section>
 
@@ -137,12 +136,36 @@ export const Home = () => {
 								<div className="video-frame">
 										<div className="video-wrapper">
 												<iframe
+													src="https://www.youtube.com/embed/xuqa-s7Qy3A"
+													allowFullScreen
+													style={{ border: 'none' }}
+													width="100%"
+													height="400px"
+													title="Twisted game"
+												/>
+										</div>
+								</div>
+								<div className="video-frame">
+										<div className="video-wrapper">
+												<iframe
+													src="https://www.youtube.com/embed/TmX8TV8ua-A"
+													allowFullScreen
+													style={{ border: 'none' }}
+													width="100%"
+													height="400px"
+													title="ZUTOMAYO - Inside Joke (bass cover)"
+												/>
+										</div>
+								</div>
+								<div className="video-frame">
+										<div className="video-wrapper">
+												<iframe
 													src="https://www.youtube.com/embed/7U40M-O9RUw"
 													allowFullScreen
 													style={{ border: 'none' }}
 													width="100%"
 													height="400px"
-													title="My video"
+													title="YELP - AHUB (guitar cover)"
 												/>
 										</div>
 								</div>
@@ -154,7 +177,7 @@ export const Home = () => {
 													style={{ border: 'none' }}
 													width="100%"
 													height="400px"
-													title="My video"
+													title="YELP - AHUB (bass cover)"
 												/>
 										</div>
 								</div>

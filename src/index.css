@@ -305,6 +305,10 @@ body {
 		position: relative;
 		transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 		background: rgba(255, 255, 255, 0.01);
+		cursor: pointer;
+		text-decoration: none;
+		color: inherit;
+		display: block;
 }
 
 .artist-card:hover {
