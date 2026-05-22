@@ -5,10 +5,6 @@
 
 Minimal personal website that serves as a simple online presence to share basic information and links.
 
-## Features
-- Clean and responsive design
-- Lightweight and fast loading
-
 ## Technologies Used
 - **Vite** – Build tool and development server
 - **React** – Frontend library
