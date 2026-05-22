@@ -1,11 +1,14 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sieghub",
   "compatibility_date": "2026-05-22",
-	"route": "sieghub.cc/*",
-  "workers_dev": false,
+  "observability": {
+    "enabled": true
+  },
   "assets": {
-    "directory": "./dist",
-		"not_found_handling": "single-page-application"
-  }
+    "not_found_handling": "single-page-application"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
